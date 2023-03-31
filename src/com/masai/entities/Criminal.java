@@ -1,6 +1,6 @@
 package com.masai.entities;
 
-public class Criminal {
+public class Criminal extends Crime{
 //	criminal_id, name, dob, gender, identifying_mark,
 //	   first_arrest_date, arrested_from_ps_area.
 	

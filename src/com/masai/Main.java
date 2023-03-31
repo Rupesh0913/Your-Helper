@@ -6,15 +6,6 @@ import com.masai.utility.Admin;
 
 public class Main {
 
-	private static void customerSignUp() {
-	    // TODO Auto-generated method stub
-	    
-	  }
-
-	  private static void customerFunctions() {
-	    // TODO Auto-generated method stub
-	    
-	  }
 
 	  private static void adminFunctions(Scanner sc) throws InvalidDetailsException {
 	    // TODO Auto-generated method stub
