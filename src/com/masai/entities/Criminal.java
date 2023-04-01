@@ -1,10 +1,12 @@
 package com.masai.entities;
 
-public class Criminal extends Crime{
+import java.io.Serializable;
+
+public class Criminal implements Serializable{
 //	criminal_id, name, dob, gender, identifying_mark,
 //	   first_arrest_date, arrested_from_ps_area.
 	
-	private String criminal_id;
+	private int criminal_id;
 	private String name;
 	private String dob;
 	private String gender;
@@ -12,7 +14,7 @@ public class Criminal extends Crime{
 	private String first_arrest_data;
 	private String arrested_from_ps_area;
 	
-	public Criminal(String criminal_id, String name, String dob, String gender, String identifying_mark,
+	public Criminal(int criminal_id, String name, String dob, String gender, String identifying_mark,
 			String first_arrest_data, String arrested_from_ps_area) {
 		super();
 		this.criminal_id = criminal_id;
@@ -24,11 +26,11 @@ public class Criminal extends Crime{
 		this.arrested_from_ps_area = arrested_from_ps_area;
 	}
 
-	public String getCriminal_id() {
+	public int getCriminal_id() {
 		return criminal_id;
 	}
 
-	public void setCriminal_id(String criminal_id) {
+	public void setCriminal_id(int criminal_id) {
 		this.criminal_id = criminal_id;
 	}
 

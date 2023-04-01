@@ -1,6 +1,8 @@
 package com.masai.entities;
 
-public class Crime {
+import java.io.Serializable;
+
+public class Crime implements Serializable{
 	 private String date;
 	    private String crime_id;
 	    private String type;
