@@ -4,18 +4,18 @@ import java.io.Serializable;
 
 public class Crime implements Serializable{
 	 private String date;
-	    private String crime_id;
+	    private int crime_id;
 	    private String type;
 	    private String location;
-	    private String description;
+
 	    private String nameOfVictim;
 	    
-	    public Crime(String date, String crime_id, String type, String location, String details,String nameOfVictim) {
+	    public Crime(int crime_id,String date, String type, String location,String nameOfVictim) {
 	        this.date = date;
 	        this.crime_id = crime_id;
 	        this.type = type;
 	        this.location = location;
-	        this.description = details;
+	       
 	        this.nameOfVictim=nameOfVictim;
 	    }
 	    
@@ -31,7 +31,7 @@ public class Crime implements Serializable{
 	        return date;
 	    }
 	    
-	    public String getCrime_id() {
+	    public int getCrime_id() {
 			return crime_id;
 		}
 
@@ -43,11 +43,9 @@ public class Crime implements Serializable{
 	        return location;
 	    }
 	    
-	    public String getdescription() {
-	        return description;
-	    }
+	   
 	    
 	    public String toString() {
-	        return date + " " + crime_id + " " + type + " " + location + " " + description;
+	        return date + " " + crime_id + " " + type + " " + location + " " ;
 	    }
 }

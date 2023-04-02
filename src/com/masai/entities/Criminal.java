@@ -84,9 +84,10 @@ public class Criminal implements Serializable{
 
 	@Override
 	public String toString() {
-		return "Criminal [criminal_id=" + criminal_id + ", name=" + name + ", dob=" + dob + ", gender=" + gender
-				+ ", identifying_mark=" + identifying_mark + ", first_arrest_data=" + first_arrest_data
-				+ ", arrested_from_ps_area=" + arrested_from_ps_area + "]";
+		System.out.println("Criminal Record");
+		return "criminal_id: " + criminal_id + " name: " + name + ", date of birth: " + dob + ", gender: " + gender
+				+ ", identifying_mark: " + identifying_mark + ", first_arrest_data: " + first_arrest_data
+				+ ", arrested_from_ps_area: " + arrested_from_ps_area+"\n" ;
 	}
 	
 	
