@@ -15,6 +15,7 @@ import com.masai.entities.Criminal;
 
 public class FileExists {
 	
+		@SuppressWarnings("unchecked")
 		public static Map<Integer, Criminal> criminalFile(){
 			Map<Integer, Criminal> cFile = null;
 
@@ -49,6 +50,7 @@ public class FileExists {
 			return cFile;
 		}
 		
+
 		@SuppressWarnings("unchecked")
 		public static Map<Integer, Crime> crimeFile(){
 			Map<Integer, Crime> crFile = null;
