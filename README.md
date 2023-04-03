@@ -1,5 +1,4 @@
-# Your Helper (Crime Information Management System)             <img src="https://user-images.githubusercontent.com/63779583/229431627-c0f6ff08-536c-41ed-9fdd-09d2d24455d7.png" width="100" height="100">
-
+ # <img src="https://user-images.githubusercontent.com/63779583/229431627-c0f6ff08-536c-41ed-9fdd-09d2d24455d7.png" width="100" height="100"> Your Helper (Crime Information Management System)            
 
 * It is a mini project based on java 
 * OOPS concepts are used
